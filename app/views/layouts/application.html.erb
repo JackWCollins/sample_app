@@ -2,6 +2,8 @@
 <html>
 	<head>
 		<title><%= title %></title>
+		<%= stylesheet_link_tag 'blueprint/screen.css', :media => 'screen' %>
+		<%= stylesheet_link_tag 'blueprint/print.css', :media => 'print' %>
 		<%= csrf_meta_tag %>
 	</head>
 	<body>
